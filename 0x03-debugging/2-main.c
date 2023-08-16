@@ -10,8 +10,7 @@ int main(void)
 {
 int a, b, c;
 int largest;
-
-a = 972 % 2;
+a = 972;
 b = -98;
 c = 0;
 
