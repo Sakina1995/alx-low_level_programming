@@ -16,11 +16,10 @@ list_t hello = {"World", 5, NULL};
 size_t n;
 
 head = &hello;
-new =
-malloc(sizeof(list_t));
+new = malloc(sizeof(list_t));
 if (new == NULL)
 {
-printf("Error\n");
+ printf("Error\n");
 return (1);
 }
 new->str = strdup("Hello");
